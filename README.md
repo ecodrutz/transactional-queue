@@ -38,7 +38,7 @@ $queue->start();
 $queue->enqueue('another value');
 // end and rollback the transaction
 $queue->rollback();
-$queue->peek(); // my value
+$queue->peek(); // my new value
 ```
 
 Feel free to submit improvements!
