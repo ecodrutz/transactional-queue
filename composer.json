@@ -1,0 +1,35 @@
+{
+  "name": "ecodrutz/transactional-queue",
+  "description": "PHP Implementation of a stack that supports transactions",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "queue",
+    "transaction"
+  ],
+  "authors": [
+    {
+      "name": "Liviu Codrut Enache",
+      "email": "ecodrutz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Queue\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Queue\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
